@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .cir{
+                background-color: blue;
+                width:50px;
+                height:50px;
+                border-radius: 50%;
+                border-left: 2px solid lightblue;
+                animation-name: rot;
+                animation-iteration-count: infinite;
+                animation-duration: 1s;
+            }
+            @keyframes rot{
+                from{
+                transform: rotate(0deg)
+                }
+                to{
+                    transform: rotate(360deg)
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cir"></div>
+    </body>
+</html>
